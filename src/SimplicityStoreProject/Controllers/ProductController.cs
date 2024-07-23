@@ -39,7 +39,7 @@ namespace SimplicityStoreProject.Controllers
 
             if (user.Role != "Admin")
             {
-                return BadRequest("No tenes los permisos para crear productos");
+                return BadRequest("No tienes los permisos para crear productos");
             }
 
             var isCategoryProduct = _productCategoryRepository.GetProductsCategoryById(productCreate.CategoryId);

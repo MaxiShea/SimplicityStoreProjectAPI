@@ -1,189 +1,185 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Desktop\\SimplicityStoreProject\\",
+  "WorkspaceRootPath": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\simplicitystoreproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreproject\\infrastructure\\data\\simplicitystorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\simplicitystorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreproject\\infrastructure\\data\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreproject\\infrastructure\\data\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreproject\\infrastructure\\data\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\simplicitystoreproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\simplicitystoreproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\controllers\\productscategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\productscategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\simplicitystoreproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\simplicitystoreproject\\controllers\\productscategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\productscategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\userdtos\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\userdtos\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\controllers\\autenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\autenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\interfaces\\icustomauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icustomauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreproject\\infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\simplicitystoreproject\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\simplicitystoreproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\infrastructure\\data\\simplicitystorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\simplicitystorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\infrastructure\\data\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\infrastructure\\data\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\infrastructure\\data\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\simplicitystoreproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\userdtos\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\userdtos\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\simplicitystoreproject\\controllers\\autenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\controllers\\autenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\interfaces\\icustomauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icustomauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreproject\\simplicitystoreproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\simplicitystoreproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C2307B0F-6EBD-43AF-A769-4CB302DE1CA8}|SimplicityStoreProject\\SimplicityStoreProject.csproj|solutionrelative:simplicitystoreproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\requests\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\requests\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\requests\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\userdtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\userdtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\userdtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreproject\\infrastructure\\data\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\infrastructure\\data\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreproject\\infrastructure\\data\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\infrastructure\\data\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC9F0AAE-4951-4C2D-AF23-C0FB994C191B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\orderdetaildtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\orderdetaildtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\orderdetaildtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\orderdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\interfaces\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\interfaces\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\interfaces\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\interfaces\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\productcategoriesdtos\\productcategoriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\productcategoriesdtos\\productcategoriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\productcategoriesdtos\\productcategoriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\productdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\productdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\productdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\orderdetaildtos\\orderdetailcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\orderdetaildtos\\orderdetailcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\orderdetaildtos\\orderdetailcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\orderdtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\orderdtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\orderdtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\productdtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\productdtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\productdtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\orderdetaildtos\\orderdetailupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\orderdetaildtos\\orderdetailupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\orderdetaildtos\\orderdetailupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\orderdtos\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\orderdtos\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\orderdtos\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\productcategoriesdtos\\productcategoriesupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\productcategoriesdtos\\productcategoriesupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\productcategoriesdtos\\productcategoriesupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\interfaces\\iproductcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\interfaces\\iproductcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iproductcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\productcategoriesdtos\\productcategoriescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\productcategoriesdtos\\productcategoriescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\productcategoriesdtos\\productcategoriescreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreproject\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D818482A-84F3-44DA-913C-2D9C950EB773}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreproject\\application\\models\\userdtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|d:\\desktop\\simplicitystoreprojectapi\\src\\application\\models\\userdtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDCF28D8-0E40-4500-8E3E-AB4E08108772}|Application\\Application.csproj|solutionrelative:application\\models\\userdtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -194,12 +190,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 33,
+          "SelectedChildIndex": 24,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -294,64 +286,28 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1411572818:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductsRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\ProductsRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\ProductsRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\ProductsRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\ProductsRepository.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAswEkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T21:13:58.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\UsersRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\UsersRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\UsersRepository.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAUwEYAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:06:29.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Program.cs",
-              "RelativeDocumentMoniker": "SimplicityStoreProject\\Program.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Program.cs",
-              "RelativeToolTip": "SimplicityStoreProject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T01:07:01.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\OrderController.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "SimplicityStoreProject\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\OrderController.cs",
               "RelativeToolTip": "SimplicityStoreProject\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwDAAAAANAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwGkAAAB0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T13:51:27.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ProductCategoryRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\ProductCategoryRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\ProductCategoryRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\ProductCategoryRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\ProductCategoryRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\ProductCategoryRepository.cs",
               "RelativeToolTip": "Infrastructure\\Data\\ProductCategoryRepository.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAxwBYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -359,11 +315,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SimplicityStoreProject\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\UserController.cs",
               "RelativeToolTip": "SimplicityStoreProject\\Controllers\\UserController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAowDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -371,48 +327,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "SimplicityStoreProject\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\ProductController.cs",
               "RelativeToolTip": "SimplicityStoreProject\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAIwJgAAAAhAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:08:55.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SimplicityStoreProject.csproj",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\SimplicityStoreProject.csproj",
-              "RelativeDocumentMoniker": "SimplicityStoreProject\\SimplicityStoreProject.csproj",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\SimplicityStoreProject.csproj",
-              "RelativeToolTip": "SimplicityStoreProject\\SimplicityStoreProject.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-02T23:00:28.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Application.csproj",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "Application\\Application.csproj",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Application.csproj",
-              "RelativeToolTip": "Application\\Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-18T03:17:46.53Z",
+              "WhenOpened": "2024-07-05T22:08:55.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-18T03:17:46.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\UsersRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\UsersRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\UsersRepository.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAUwEYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T00:06:29.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsCategoryController.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\ProductsCategoryController.cs",
+              "RelativeDocumentMoniker": "SimplicityStoreProject\\Controllers\\ProductsCategoryController.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\ProductsCategoryController.cs",
+              "RelativeToolTip": "SimplicityStoreProject\\Controllers\\ProductsCategoryController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwC4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:45:59.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\ProductsRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ProductsRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\ProductsRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ProductsRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAswEkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T21:13:58.172Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "SimplicityStoreProject\\Controllers\\OrderDetailController.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "SimplicityStoreProject\\Controllers\\OrderDetailController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAiwHAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T23:24:59.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Program.cs",
+              "RelativeDocumentMoniker": "SimplicityStoreProject\\Program.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Program.cs",
+              "RelativeToolTip": "SimplicityStoreProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:07:01.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SimplicityStoreContext.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\SimplicityStoreContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\SimplicityStoreContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\SimplicityStoreContext.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\SimplicityStoreContext.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\SimplicityStoreContext.cs",
               "RelativeToolTip": "Infrastructure\\Data\\SimplicityStoreContext.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAAwFQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -422,9 +426,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ProductUpdateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductDTOs\\ProductUpdateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductDTOs\\ProductUpdateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\ProductDTOs\\ProductUpdateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductDTOs\\ProductUpdateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductDTOs\\ProductUpdateDto.cs",
               "RelativeToolTip": "Application\\Models\\ProductDTOs\\ProductUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -432,23 +436,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductsCategoryController.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\ProductsCategoryController.cs",
-              "RelativeDocumentMoniker": "SimplicityStoreProject\\Controllers\\ProductsCategoryController.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\ProductsCategoryController.cs",
-              "RelativeToolTip": "SimplicityStoreProject\\Controllers\\ProductsCategoryController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwC4AAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:45:59.3Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IUsersRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IUsersRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IUsersRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IUsersRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IUsersRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IUsersRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAYwBYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -458,9 +450,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "UserUpdateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\UserDTOs\\UserUpdateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\UserDTOs\\UserUpdateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\UserDTOs\\UserUpdateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\UserDTOs\\UserUpdateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\UserDTOs\\UserUpdateDto.cs",
               "RelativeToolTip": "Application\\Models\\UserDTOs\\UserUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -470,9 +462,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "AutenticationController.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\AutenticationController.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\AutenticationController.cs",
               "RelativeDocumentMoniker": "SimplicityStoreProject\\Controllers\\AutenticationController.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\AutenticationController.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\Controllers\\AutenticationController.cs",
               "RelativeToolTip": "SimplicityStoreProject\\Controllers\\AutenticationController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -482,9 +474,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ICustomAuthenticationService.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Interfaces\\ICustomAuthenticationService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\ICustomAuthenticationService.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Interfaces\\ICustomAuthenticationService.cs",
               "RelativeToolTip": "Application\\Interfaces\\ICustomAuthenticationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -494,9 +486,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "AutenticacionService.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Services\\AutenticacionService.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Services\\AutenticacionService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\AutenticacionService.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Services\\AutenticacionService.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Services\\AutenticacionService.cs",
               "RelativeToolTip": "Infrastructure\\Services\\AutenticacionService.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAgwDYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -505,22 +497,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "OrderDetailController.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\OrderDetailController.cs",
-              "RelativeDocumentMoniker": "SimplicityStoreProject\\Controllers\\OrderDetailController.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\Controllers\\OrderDetailController.cs",
-              "RelativeToolTip": "SimplicityStoreProject\\Controllers\\OrderDetailController.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAiwHAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T23:24:59.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\OrderDetail.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\OrderDetail.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\OrderDetail.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\OrderDetail.cs",
               "RelativeToolTip": "Domain\\Entities\\OrderDetail.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAcwBgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -528,11 +508,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\Product.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\Product.cs",
               "RelativeToolTip": "Domain\\Entities\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -540,11 +520,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "ProductCategory.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\ProductCategory.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\ProductCategory.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ProductCategory.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\ProductCategory.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\ProductCategory.cs",
               "RelativeToolTip": "Domain\\Entities\\ProductCategory.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -552,11 +532,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\Order.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Order.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\Order.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\Order.cs",
               "RelativeToolTip": "Domain\\Entities\\Order.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAIwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -564,11 +544,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\UserDTOs\\UserDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\UserDTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\UserDTOs\\UserDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\UserDTOs\\UserDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\UserDTOs\\UserDto.cs",
               "RelativeToolTip": "Application\\Models\\UserDTOs\\UserDto.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAIwAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -576,11 +556,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\appsettings.json",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\appsettings.json",
               "RelativeDocumentMoniker": "SimplicityStoreProject\\appsettings.json",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\SimplicityStoreProject\\appsettings.json",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\SimplicityStoreProject\\appsettings.json",
               "RelativeToolTip": "SimplicityStoreProject\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -588,11 +568,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "AuthenticationRequest.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\Requests\\AuthenticationRequest.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\Requests\\AuthenticationRequest.cs",
               "RelativeDocumentMoniker": "Application\\Models\\Requests\\AuthenticationRequest.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\Requests\\AuthenticationRequest.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\Requests\\AuthenticationRequest.cs",
               "RelativeToolTip": "Application\\Models\\Requests\\AuthenticationRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -600,11 +580,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "UserCreateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\UserDTOs\\UserCreateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\UserDTOs\\UserCreateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\UserDTOs\\UserCreateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\UserDTOs\\UserCreateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\UserDTOs\\UserCreateDto.cs",
               "RelativeToolTip": "Application\\Models\\UserDTOs\\UserCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -612,11 +592,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IOrderRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IOrderRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IOrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -624,11 +604,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "OrderDetailRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\OrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\OrderDetailRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\OrderDetailRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\OrderDetailRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\OrderDetailRepository.cs",
               "RelativeToolTip": "Infrastructure\\Data\\OrderDetailRepository.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -636,11 +616,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "OrdersRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\OrdersRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\OrdersRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\OrdersRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Infrastructure\\Data\\OrdersRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Infrastructure\\Data\\OrdersRepository.cs",
               "RelativeToolTip": "Infrastructure\\Data\\OrdersRepository.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwB8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -648,11 +628,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "OrderDetailsDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDetailDTOs\\OrderDetailsDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDetailDTOs\\OrderDetailsDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\OrderDetailDTOs\\OrderDetailsDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDetailDTOs\\OrderDetailsDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDetailDTOs\\OrderDetailsDto.cs",
               "RelativeToolTip": "Application\\Models\\OrderDetailDTOs\\OrderDetailsDto.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAmwBcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -660,11 +640,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "OrderDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDTOs\\OrderDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDTOs\\OrderDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\OrderDTOs\\OrderDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDTOs\\OrderDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDTOs\\OrderDto.cs",
               "RelativeToolTip": "Application\\Models\\OrderDTOs\\OrderDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -672,11 +652,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "IOrderDetailRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IOrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IOrderDetailRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IOrderDetailRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IOrderDetailRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IOrderDetailRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IOrderDetailRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -684,11 +664,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "IProductsRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IProductsRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IProductsRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IProductsRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IProductsRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IProductsRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IProductsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -696,11 +676,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "ProductCategoriesDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesDto.cs",
               "RelativeToolTip": "Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -708,11 +688,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\User.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Entities\\User.cs",
               "RelativeToolTip": "Domain\\Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -720,11 +700,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "ProductDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductDTOs\\ProductDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductDTOs\\ProductDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\ProductDTOs\\ProductDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductDTOs\\ProductDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductDTOs\\ProductDto.cs",
               "RelativeToolTip": "Application\\Models\\ProductDTOs\\ProductDto.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAqwAwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -732,11 +712,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "OrderDetailCreateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDetailDTOs\\OrderDetailCreateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDetailDTOs\\OrderDetailCreateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\OrderDetailDTOs\\OrderDetailCreateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDetailDTOs\\OrderDetailCreateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDetailDTOs\\OrderDetailCreateDto.cs",
               "RelativeToolTip": "Application\\Models\\OrderDetailDTOs\\OrderDetailCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -744,11 +724,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "ProductCreateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductDTOs\\ProductCreateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductDTOs\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\ProductDTOs\\ProductCreateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductDTOs\\ProductCreateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductDTOs\\ProductCreateDto.cs",
               "RelativeToolTip": "Application\\Models\\ProductDTOs\\ProductCreateDto.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA5wCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -756,11 +736,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "OrderCreateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDTOs\\OrderCreateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDTOs\\OrderCreateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\OrderDTOs\\OrderCreateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDTOs\\OrderCreateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDTOs\\OrderCreateDto.cs",
               "RelativeToolTip": "Application\\Models\\OrderDTOs\\OrderCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -768,11 +748,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "OrderDetailUpdateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDetailDTOs\\OrderDetailUpdateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDetailDTOs\\OrderDetailUpdateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\OrderDetailDTOs\\OrderDetailUpdateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDetailDTOs\\OrderDetailUpdateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDetailDTOs\\OrderDetailUpdateDto.cs",
               "RelativeToolTip": "Application\\Models\\OrderDetailDTOs\\OrderDetailUpdateDto.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -780,11 +760,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "OrderUpdateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDTOs\\OrderUpdateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDTOs\\OrderUpdateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\OrderDTOs\\OrderUpdateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\OrderDTOs\\OrderUpdateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\OrderDTOs\\OrderUpdateDto.cs",
               "RelativeToolTip": "Application\\Models\\OrderDTOs\\OrderUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -792,11 +772,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "ProductCategoriesUpdateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesUpdateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesUpdateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesUpdateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesUpdateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesUpdateDto.cs",
               "RelativeToolTip": "Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -804,11 +784,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "IProductCategoryRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IProductCategoryRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IProductCategoryRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IProductCategoryRepository.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Interfaces\\IProductCategoryRepository.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Interfaces\\IProductCategoryRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IProductCategoryRepository.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -816,11 +796,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "ProductCategoriesCreateDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesCreateDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesCreateDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesCreateDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesCreateDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesCreateDto.cs",
               "RelativeToolTip": "Application\\Models\\ProductCategoriesDTOs\\ProductCategoriesCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -828,11 +808,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "UserLoginDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\UserDTOs\\UserLoginDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\UserDTOs\\UserLoginDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\UserDTOs\\UserLoginDto.cs",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Application\\Models\\UserDTOs\\UserLoginDto.cs",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Application\\Models\\UserDTOs\\UserLoginDto.cs",
               "RelativeToolTip": "Application\\Models\\UserDTOs\\UserLoginDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -840,11 +820,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "Domain.csproj",
-              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Domain.csproj",
+              "DocumentMoniker": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "D:\\Desktop\\SimplicityStoreProject\\Domain\\Domain.csproj",
+              "ToolTip": "D:\\Desktop\\SimplicityStoreProjectAPI\\src\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

@@ -41,13 +41,13 @@ namespace SimplicityStoreProject.Controllers
 
             if (user.Role != "Admin")
             {
-                return BadRequest("no tenes lo permisos suficientes");
+                return BadRequest("no tienes lo permisos suficientes");
             }
             var orders = _ordersRepository.GetAllOrders();
 
             if (orders == null || !orders.Any())
             {
-                return NotFound();
+                return NotFound("No hay Orden en el sistema");
             }
 
             var ordersDtos = orders.Select(order => OrderDto.Create(order)).ToList();
@@ -67,12 +67,12 @@ namespace SimplicityStoreProject.Controllers
 
             if (Order == null)
             {
-                return NotFound("No existe esa orden");
+                return NotFound("No existe esa Orden");
             }
 
             if (user.Role != "Admin" && Order.UserId != userId)
             {
-                return BadRequest("No tienes los permiso para ver esa orden");
+                return BadRequest("No tienes los permiso para ver esa Orden");
             }
 
             return Ok(OrderDto.Create(Order));
@@ -113,13 +113,13 @@ namespace SimplicityStoreProject.Controllers
 
             if (Order == null)
             {
-                return NotFound("no existe esa orden");
+                return NotFound("No existe esa Orden");
             }
             if (user.Role != "Admin")
             {
                 if (Order.UserId != userId)
                 {
-                    return BadRequest("no es tu order");
+                    return BadRequest("No puedes borrar esa Orden");
                 }
             }
          
