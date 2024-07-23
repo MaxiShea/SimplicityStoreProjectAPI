@@ -31,20 +31,40 @@ namespace SimplicityStoreProject.Controllers
         [HttpGet]
         [Authorize]
 
+        [HttpGet]
+        [Authorize]
         public ActionResult<List<OrderDetailsDto>> GetOrders()
         {
+            // Obtener el userId del token de usuario
             int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "");
 
+            // Obtener la información del usuario
             var user = _usersRepository.GetUser(userId);
 
+            // Obtener todos los detalles de las órdenes
             var ordersDetail = _ordersDetailRepository.GetAllOrdersDetail();
 
+            // Verificar si existen detalles de órdenes
             if (ordersDetail == null || !ordersDetail.Any())
             {
                 return NotFound();
             }
 
+            // Filtrar los detalles de las órdenes según el rol del usuario
+            if (user.Role != "Admin")
+            {
+                ordersDetail = ordersDetail.Where(order => _ordersRepository.GetOrderById(order.OrderId)?.UserId == userId).ToList();
+            }
+
+            // Verificar si hay detalles de órdenes después del filtrado
+            if (!ordersDetail.Any())
+            {
+                return BadRequest("No tienes permisos suficientes o no tienes órdenes.");
+            }
+
+            // Convertir los detalles de las órdenes a DTOs
             var ordersDetailDtos = ordersDetail.Select(order => OrderDetailsDto.Create(order)).ToList();
+
             return Ok(ordersDetailDtos);
         }
 
@@ -53,42 +73,38 @@ namespace SimplicityStoreProject.Controllers
 
         public ActionResult<OrderDetailsDto> GetOrdersDetail(int id)
         {
+            // Obtener el userId del token de usuario
             int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "");
 
+            // Obtener la información del usuario
             var user = _usersRepository.GetUser(userId);
 
+            // Obtener los detalles de la orden
+            var orderDetail = _ordersDetailRepository.GetOrderDetailById(id);
 
-            if (user.Role != "Admin")
+            // Verificar si los detalles de la orden existen
+            if (orderDetail == null)
             {
-                return BadRequest("no tenes lo permisos suficientes");
+                return NotFound("No existe o no es tu OrdenDetail");
             }
 
+            // Obtener la orden asociada con los detalles
+            var order = _ordersRepository.GetOrderById(orderDetail.OrderId);
 
-
-            var OrderDetail = _ordersDetailRepository.GetOrderDetailById(id);
-            if (OrderDetail == null)
+            // Verificar si la orden existe
+            if (order == null)
             {
-                return NotFound();
+                return NotFound("No existe esa orden");
             }
 
-
-            var Order = _ordersRepository.GetOrderById(OrderDetail.OrderId);
-
-
-
-            if (Order == null)
+            // Verificar si el usuario es admin o si es el dueño de la orden
+            if (user.Role != "Admin" && order.UserId != userId)
             {
-                return NotFound("no existe esa orden");
+                return BadRequest("No tienes los permisos suficientes o no es tu orden");
             }
 
-            if (user.Role != "Admin" && Order.UserId != userId)
-            {
-                return BadRequest("no es tu order");
-            }
-
-
-            return Ok(OrderDetailsDto.Create(OrderDetail));
-
+            // Devolver los detalles de la orden
+            return Ok(OrderDetailsDto.Create(orderDetail));
         }
 
         [HttpDelete]
@@ -100,24 +116,24 @@ namespace SimplicityStoreProject.Controllers
 
             var user = _usersRepository.GetUser(userId);
 
-
-
             var OrderDetail = _ordersDetailRepository.GetOrderDetailById(id);
+
+
             if (OrderDetail == null)
             {
-                return NotFound();
+                return NotFound("No existe esa OrdenDetail.");
             }
 
             var Order = _ordersRepository.GetOrderById(OrderDetail.OrderId);
 
             if (Order == null)
             {
-                return NotFound("no existe esa orden");
+                return NotFound("No existe esa Orden.");
             }
 
             if (Order.UserId != userId)
             {
-                return BadRequest("no es tu order");
+                return BadRequest("No tienes los permisos suficientes.");
             }
 
             _productsRepository.AddStock(OrderDetail.ProductId,OrderDetail.Quantity);
@@ -127,10 +143,10 @@ namespace SimplicityStoreProject.Controllers
             _ordersDetailRepository.SaveChanges();
 
 
-            return Ok("Orden eliminada Correctamente");
-        
+            return Ok("OrdenDetail eliminada Correctamente");        
 
         }
+
         [HttpPost]
         [Authorize]
         public ActionResult<OrderDetailsDto> CreateOrderDetail(int OrderId,[FromBody] OrderDetailCreateDto orderDeatailCreate)

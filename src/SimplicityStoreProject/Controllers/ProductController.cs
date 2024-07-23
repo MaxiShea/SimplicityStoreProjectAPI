@@ -77,9 +77,7 @@ namespace SimplicityStoreProject.Controllers
             if (product == null)
             {
                 return NotFound("No existe ese Producto con ese id");
-            }
-
-    
+            }    
 
 
             if ( user.Role != "Admin")
@@ -122,7 +120,7 @@ namespace SimplicityStoreProject.Controllers
 
             if ( user.Role != "Admin")
             {
-                return BadRequest("No tenes los permisos para eliminar productos");
+                return BadRequest("No tienes los permisos suficientes.");
             }
 
             _productsRepository.DeleteProduct(ProductToDelete);

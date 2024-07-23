@@ -76,6 +76,7 @@ namespace Infrastructure.Data
                 return addr.Address == email;
             }
             catch
+
             {
                 return false;
             }

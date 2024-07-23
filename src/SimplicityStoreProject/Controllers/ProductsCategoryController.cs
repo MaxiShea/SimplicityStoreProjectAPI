@@ -60,8 +60,9 @@ namespace SimplicityStoreProject.Controllers
 
             if (user.Role != "Admin")
             {
-                return BadRequest("no tenes los permisos");
+                return BadRequest("No tienes los permisos suficientes.");
             }
+
             // pasamos el UserCreateDto a la entidad User para poderla guardar en base de datos
             ProductCategory newProductCategory = ProductCategoriesCreateDto.ToCategoryProduct(productCategoryCreate);
 
@@ -71,14 +72,10 @@ namespace SimplicityStoreProject.Controllers
 
             return Ok(ProductCategoriesDto.Create(newProductCategory));
 
-
         }
-
-
 
         [HttpPut]
         [Authorize]
-
         public ActionResult<ProductDto> PutProductCategory(int id, ProductCategoriesUpdateDto productCategoryUpdate)
         {
             int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "");
@@ -94,12 +91,9 @@ namespace SimplicityStoreProject.Controllers
                 return NotFound("no existe ese product con el id");
             }
 
-
-
-
             if (user.Role != "Admin")
             {
-                return BadRequest("no tenes los permisos");
+                return BadRequest("No tienes los permisos suficientes.");
             }
 
 
@@ -110,11 +104,6 @@ namespace SimplicityStoreProject.Controllers
 
 
             _productCategoryRepository.SaveChanges();
-
-
-
-
-
 
 
             return Ok("category product Editado");
@@ -140,7 +129,7 @@ namespace SimplicityStoreProject.Controllers
 
             if (user.Role != "Admin")
             {
-                return BadRequest("No tienes los permisos");
+                return BadRequest("No tienes los permisos suficientes.");
             }
 
             _productCategoryRepository.DeleteProductsCategory(ProductToDelete);

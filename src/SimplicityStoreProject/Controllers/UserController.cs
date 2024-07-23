@@ -51,7 +51,6 @@ namespace SimplicityStoreProject.Controllers
             }
 
 
-
             User newUser = UserCreateDto.ToUser(userCreate);
 
             _usersRepository.AddUser(newUser);
@@ -85,7 +84,12 @@ namespace SimplicityStoreProject.Controllers
 
             if (userEdit.Id != userId && user.Role != "Admin")
             {
-                return BadRequest("No tenes los permisos para editar este usuario");
+                return BadRequest("No tienes los permisos para editar este usuario");
+            }
+
+            if (!_usersRepository.IsValidEmail(userUpdate.Email))
+            {
+                return BadRequest("El email no tiene un formato válido.");
             }
 
             var userToEdit = _usersRepository.GetUser(id);
@@ -93,7 +97,6 @@ namespace SimplicityStoreProject.Controllers
             userToEdit.Email = userUpdate.Email;
 
             _usersRepository.SaveChanges();
-
 
 
             return Ok("Usuario Editado correctamente.");
@@ -118,7 +121,7 @@ namespace SimplicityStoreProject.Controllers
 
             if (userToDelete.Id != userId && user.Role != "Admin")
             {
-                return BadRequest("No tienes los permisos para eliminar el usuario.");
+                return BadRequest("No tienes los permisos suficientes.");
             }
 
             _usersRepository.DeleteUser(userToDelete);
@@ -138,9 +141,8 @@ namespace SimplicityStoreProject.Controllers
 
             if (user.Role != "Admin")
             {
-                return NotFound("No tenes los permisos para obtener todos los usuarios.");
+                return NotFound("No tienes los permisos para obtener todos los usuarios.");
             }
-
 
             var users = _usersRepository.GetUsers();
 
@@ -178,12 +180,12 @@ namespace SimplicityStoreProject.Controllers
             {
                 return NotFound("El id del usuario no existe.");
             }
+
             return UserDto.Create(GetUser);
         }
 
         [HttpGet("session")]
         [Authorize]
-
         public ActionResult<UserDto> GetUserSession()
         {
             int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "");

@@ -22,6 +22,7 @@ namespace SimplicityStoreProject.Controllers
 
 
         public OrderController(IOrderRepository ordersRepository, IUsersRepository usersRepository, IProductsRepository productsRepository, IOrderDetailRepository ordersDetailRepository)
+
         {
             _ordersRepository = ordersRepository;
             _usersRepository = usersRepository;
@@ -29,19 +30,18 @@ namespace SimplicityStoreProject.Controllers
             _ordersDetailRepository = ordersDetailRepository;
 
         }
+
         [HttpGet]
         [Authorize]
-
         public ActionResult<List<OrderDto>> GetOrders()
         {
             int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "");
 
             var user = _usersRepository.GetUser(userId);
 
-
             if (user.Role != "Admin")
             {
-                return BadRequest("no tienes lo permisos suficientes");
+                return BadRequest("No tienes permisos suficientes");
             }
             var orders = _ordersRepository.GetAllOrders();
 
@@ -92,7 +92,6 @@ namespace SimplicityStoreProject.Controllers
             _ordersRepository.AddOrder(newOrder, userId);
             _ordersRepository.SaveChanges();
 
-
             return Ok(OrderDto.Create(newOrder));
 
 
@@ -107,8 +106,6 @@ namespace SimplicityStoreProject.Controllers
 
             var user = _usersRepository.GetUser(userId);
 
-
-
             var Order = _ordersRepository.GetOrderById(id);
 
             if (Order == null)
@@ -119,10 +116,9 @@ namespace SimplicityStoreProject.Controllers
             {
                 if (Order.UserId != userId)
                 {
-                    return BadRequest("No puedes borrar esa Orden");
+                    return BadRequest("No tienes permiso para borrar esa Orden");
                 }
-            }
-         
+            }         
 
             var orderDetails = _ordersRepository.GetOrderDetailsByOrderId(id);
             foreach (var orderDetail in orderDetails)
