@@ -35,6 +35,11 @@ namespace Infrastructure.Data
             return _context.OrderDetails.Include(c => c.Product).ThenInclude(f => f.Category);
         }
 
+        public IEnumerable<OrderDetail> GetAllOrdersDetailUser(int idUser)
+        {
+            return _context.OrderDetails.Include(c => c.Product).ThenInclude(f => f.Category);
+        }
+
         public OrderDetail? GetOrderDetailById(int id)
         {
             return _context.OrderDetails.FirstOrDefault(o => o.Id == id);

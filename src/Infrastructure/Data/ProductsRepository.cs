@@ -17,7 +17,6 @@ namespace Infrastructure.Data
         {
             _context = context;
         }
-
         public IEnumerable<Product> GetProducts() // todos los productos
         {
             return _context.Products.Include(p => p.Category);
@@ -32,7 +31,6 @@ namespace Infrastructure.Data
         {
             _context.Products.Add(product);
         }
-
         public void DeleteProduct ( Product productDelete  )
         {
             var product = _context.Products.FirstOrDefault( p => p.Id == productDelete.Id );
@@ -66,7 +64,6 @@ namespace Infrastructure.Data
         {
             var product = _context.Products.Where(p => p.Id == idProduct).FirstOrDefault();
             product.Stock = product.Stock - Quantity;
-
         }
 
         public void AddStock(int idProduct, int Quantity)

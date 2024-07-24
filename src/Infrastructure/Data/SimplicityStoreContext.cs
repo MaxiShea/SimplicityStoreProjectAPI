@@ -46,21 +46,17 @@ namespace Infrastructure.Data
                    Description = "Promueve el crecimiento y la recuperación muscular.",
                    Icon = "Deportivo.png",
                    Name = "Deportivo",
-
-
-
                },
+
                 new ProductCategory
                 {
                     Id = 2,
                     Description = "Contribuye a mantener la salud y flexibilidad de huesos, articulaciones y tendones, ayudando a prevenir lesiones y mejorar la movilidad.",
                     Icon = "nutri.png",
                     Name = "Nutricional"
-
-
                 }
-
            );
+
             modelBuilder.Entity<Product>().HasData(
               new Product
               {
@@ -71,11 +67,8 @@ namespace Infrastructure.Data
                   Stock = 300,
                   Price = 400,
                   Available = true
-
-
-
-
               },
+
                new Product
                {
                    Id = 2,
@@ -85,16 +78,8 @@ namespace Infrastructure.Data
                    Stock = 500,
                    Price = 400,
                    Available = true
-
-
                }
-
           );
-
-
-
-
-
         }
     }
 }

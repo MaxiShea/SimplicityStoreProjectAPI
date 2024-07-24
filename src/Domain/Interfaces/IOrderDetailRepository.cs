@@ -17,6 +17,5 @@ namespace Domain.Interfaces
         IEnumerable<OrderDetail> GetOrdersDetailByUserId(int idUser);
         bool OrderDetailExists(int idOrder);
         bool SaveChanges();
-  
     }
 }

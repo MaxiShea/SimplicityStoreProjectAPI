@@ -37,7 +37,6 @@ namespace Domain.Entities
         [JsonIgnore]
         [ForeignKey("CategoryId")]
         public ProductCategory? Category { get; set; }
-
         public int CategoryId { get; set; }
 
     }

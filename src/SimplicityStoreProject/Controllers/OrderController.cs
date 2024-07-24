@@ -31,7 +31,7 @@ namespace SimplicityStoreProject.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet("Admin")]
         [Authorize]
         public ActionResult<List<OrderDto>> GetOrders()
         {
@@ -43,7 +43,30 @@ namespace SimplicityStoreProject.Controllers
             {
                 return BadRequest("No tienes permisos suficientes");
             }
+
             var orders = _ordersRepository.GetAllOrders();
+
+            if (orders == null || !orders.Any())
+            {
+                return NotFound("No hay Orden en el sistema");
+            }
+
+            var ordersDtos = orders.Select(order => OrderDto.Create(order)).ToList();
+
+            return Ok(ordersDtos);
+        }
+
+        [HttpGet("User")]
+        [Authorize]
+        public ActionResult<List<OrderDto>> GetOrderUser()
+        {
+            int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "");
+
+            var user = _usersRepository.GetUser(userId);
+
+            var orders = _ordersRepository.GetAllOrders();
+
+            orders = orders.Where(order => order.UserId == userId).ToList();
 
             if (orders == null || !orders.Any())
             {
@@ -139,9 +162,6 @@ namespace SimplicityStoreProject.Controllers
 
             return Ok("Orden eliminada correctamente");
 
-
         }
-
-
     }
 }

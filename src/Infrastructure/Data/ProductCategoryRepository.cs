@@ -56,7 +56,5 @@ namespace Infrastructure.Data
         {
             _context.ProductCategories.Add(productCategory);
         }
-
-
     }
 }

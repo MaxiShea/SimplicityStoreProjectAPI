@@ -28,12 +28,35 @@ namespace SimplicityStoreProject.Controllers
             _usersRepository = usersRepository;
             _productsRepository = productsRepository;
         }
-        [HttpGet]
-        [Authorize]
 
-        [HttpGet]
+        [HttpGet("Admin")]
         [Authorize]
         public ActionResult<List<OrderDetailsDto>> GetOrders()
+        {
+            int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "");
+
+            var user = _usersRepository.GetUser(userId);
+
+            if (user.Role != "Admin")
+            {
+                return BadRequest("No tienes los permisos suficientes o no es tu orden");
+            }
+
+            var ordersDetail = _ordersDetailRepository.GetAllOrdersDetail();
+
+            if (ordersDetail == null || !ordersDetail.Any())
+            {
+                return NotFound();
+            }
+
+            var ordersDetailDtos = ordersDetail.Select(order => OrderDetailsDto.Create(order)).ToList();
+
+            return Ok(ordersDetailDtos);
+        }
+
+        [HttpGet("User")]
+        [Authorize]
+        public ActionResult<List<OrderDetailsDto>> GetOrdenDetailUser()
         {
             // Obtener el userId del token de usuario
             int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value ?? "");
@@ -49,13 +72,10 @@ namespace SimplicityStoreProject.Controllers
             {
                 return NotFound();
             }
-
             // Filtrar los detalles de las órdenes según el rol del usuario
-            if (user.Role != "Admin")
-            {
-                ordersDetail = ordersDetail.Where(order => _ordersRepository.GetOrderById(order.OrderId)?.UserId == userId).ToList();
-            }
-
+            
+            ordersDetail = ordersDetail.Where(order => _ordersRepository.GetOrderById(order.OrderId)?.UserId == userId).ToList();
+            
             // Verificar si hay detalles de órdenes después del filtrado
             if (!ordersDetail.Any())
             {
@@ -156,8 +176,6 @@ namespace SimplicityStoreProject.Controllers
             var user = _usersRepository.GetUser(userId);
 
 
-
-
             var product = _productsRepository.GetProductById(orderDeatailCreate.ProductId);
 
             if (product == null)
@@ -212,7 +230,6 @@ namespace SimplicityStoreProject.Controllers
 
 
         }
-
 
 
     }

@@ -66,8 +66,6 @@ namespace Infrastructure.Data
         {
             return (_context.SaveChanges() >= 0);
         }
-
-
         public bool IsValidEmail(string email)
         {
             try
@@ -81,6 +79,10 @@ namespace Infrastructure.Data
                 return false;
             }
         }
+
+
+
+
 
 
     }
