@@ -32,16 +32,16 @@ SimplicityStoreProjectAPI es una API para el e-commerce de suplementos deportivo
 
 1.Clona el repositorio:
 
-** git clone https://github.com/MaxiShea/SimplicityStoreProjectAPI.git
+git clone https://github.com/MaxiShea/SimplicityStoreProjectAPI.git
 
 2.Navega al directorio del proyecto:
 
-- cd SimplicityStoreProjectAPI
+`- `cd SimplicityStoreProjectAPI`
 
-Restaura los paquetes necesarios:
+3.Restaura los paquetes necesarios:
 
 -dotnet restore 
 
-Ejecuta la aplicación:
+4.Ejecuta la aplicación:
 
--dotnet run
+- dotnet run
