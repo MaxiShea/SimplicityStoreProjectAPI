@@ -30,22 +30,26 @@ SimplicityStoreProjectAPI es una API para el e-commerce de suplementos deportivo
 
 ## Instalación
 
-1.Clona el repositorio:
+1. **Clona el repositorio:**
 
-```bash
-   git clone https://github.com/MaxiShea/SimplicityStoreProjectAPI.git ```
+   ```bash
+   git clone https://github.com/MaxiShea/SimplicityStoreProjectAPI.git
+   ```
 
-2.Navega al directorio del proyecto:
+2. **Navega al directorio del proyecto:**
 
-```bash
-cd SimplicityStoreProjectAPI ```
+   ```bash
+   cd SimplicityStoreProjectAPI
+   ```
 
-3.Restaura los paquetes necesarios:
+3. **Restaura los paquetes necesarios:**
 
-```bash
-dotnet restore ```
+   ```bash
+   dotnet restore
+   ```
 
-4.Ejecuta la aplicación:
+4. **Ejecuta la aplicación:**
 
-```bash
- dotnet run  ```
+   ```bash
+   dotnet run
+   ```
