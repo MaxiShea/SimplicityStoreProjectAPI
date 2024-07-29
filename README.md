@@ -37,12 +37,15 @@ SimplicityStoreProjectAPI es una API para el e-commerce de suplementos deportivo
 
 2.Navega al directorio del proyecto:
 
-\`cd SimplicityStoreProjectAPI`
+```bash
+cd SimplicityStoreProjectAPI ```
 
 3.Restaura los paquetes necesarios:
 
--dotnet restore 
+```bash
+dotnet restore ```
 
 4.Ejecuta la aplicación:
 
-- dotnet run
+```bash
+ dotnet run  ```
