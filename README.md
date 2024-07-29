@@ -36,7 +36,7 @@ git clone https://github.com/MaxiShea/SimplicityStoreProjectAPI.git
 
 2.Navega al directorio del proyecto:
 
-`- `cd SimplicityStoreProjectAPI`
+\`cd SimplicityStoreProjectAPI`
 
 3.Restaura los paquetes necesarios:
 
