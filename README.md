@@ -27,7 +27,7 @@ SimplicityStoreProjectAPI es una API para el e-commerce de suplementos deportivo
 ### Autenticación y Autorización
 
 - La API utiliza JWT para la autenticación. Incluye el token JWT en el encabezado de autorización de tus solicitudes:
-- 
+
 ## Instalación
 
 Clona el repositorio:
