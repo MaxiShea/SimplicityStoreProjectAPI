@@ -30,9 +30,9 @@ SimplicityStoreProjectAPI es una API para el e-commerce de suplementos deportivo
 
 ## Instalación
 
-Clona el repositorio:
+1.Clona el repositorio:
 
--git clone https://github.com/MaxiShea/SimplicityStoreProjectAPI.git
+git clone https://github.com/MaxiShea/SimplicityStoreProjectAPI.git
 
 Navega al directorio del proyecto:
 
